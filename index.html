@@ -1,52 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws & Hearts Animal Rescue</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand" aria-label="Paws and Hearts home">
+                <span class="brand-mark">🐾</span>
+                <span>Paws &amp; Hearts</span>
+            </a>
 
-    <h1>Paws & Hearts</h1>
-    <h1>Welcome to Paws & Hearts Animal Rescue</h1>
-    <p>Thank you for visiting our website.Paws & Hearts is a non-profit organisation that rescues, rehabilitates 
-        and rehomes abandonded dogs and cats.
-        <div>
-            <img src="_images/home_page.png.png" alt="Home Page">
+            <nav aria-label="Main navigation">
+                <ul class="site-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="services.html">Our Work</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </p>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <span class="hero-kicker">Animal rescue • Cape Town</span>
+                    <h1>Paws &amp; Hearts Animal Rescue</h1>
+                    <p>We rescue, rehabilitate and rehome abandoned dogs and cats, helping every pet find safety, care and a second chance at life.</p>
+                    <div class="hero-actions">
+                        <a href="enquiry.html" class="btn btn-primary">Adopt a pet</a>
+                        <a href="about_us.html" class="btn btn-secondary">Learn more</a>
+                    </div>
+                </div>
 
+                <aside class="hero-panel" aria-label="Quick facts">
+                    <h3>Our mission</h3>
+                    <ul>
+                        <li><span class="check">✓</span> Rescue vulnerable animals from neglect</li>
+                        <li><span class="check">✓</span> Provide safe foster and recovery care</li>
+                        <li><span class="check">✓</span> Match each pet with a forever family</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
 
-    <h2>Animals waiting for a home</h2>
-    <p>You can filter by dogs and cats and then send an enquiry if you would 
-        like to adopt.
-        <a href="Dogs?subject=Enquiry from website">Dogs</a>
-        <a href="Cats?subject=Enquiry from website">Cats</a>
+        <section class="section">
+            <div class="container">
+                <span class="section-label">Our purpose</span>
+                <h2 class="section-heading">Compassion in action</h2>
+                <p class="lead">Paws &amp; Hearts is a non-profit organisation dedicated to caring for abandoned dogs and cats until they are ready for adoption.</p>
 
-        <!--Display the animals waiting for a home-->
-        <div>
-            <img src="_images/Bella.png.png" alt="Bella">
-            <img src="_images/Scout.png.png" alt="Scout">
-            <img src="_images/Luna.png.png" alt="Luna">
-            <img src="_images/Nala.png.png" alt="Nala">
+                <div class="mission-grid">
+                    <article class="card">
+                        <div class="card-icon">🐶</div>
+                        <h3>Rescue</h3>
+                        <p>We pull animals from unsafe situations and bring them into a nurturing place of care.</p>
+                    </article>
+                    
+                    <article class="card">
+                        <div class="card-icon">🏡</div>
+                        <h3>Rehome</h3>
+                        <p>We carefully match pets with loving adopters who can give them a secure future.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section animals-section">
+            <div class="container">
+                <span class="section-label">Available friends</span>
+                <h2 class="section-heading">Animals waiting for a home</h2>
+                <p class="lead">Browse some of the special companions currently in our care and start the adoption journey today.</p>
+
+                <div class="animal-grid">
+                    <article class="animal-card">
+                        <img src="_images/Bella.png.png" alt="Bella the rescue dog">
+                        <div class="content">
+                            <div class="animal-meta">Dog • Female</div>
+                            <h3>Bella</h3>
+                            <p>Gentle, affectionate and happiest when curled up beside her people.</p>
+                            <a href="enquiry.html" class="link-text">Enquire about Bella</a>
+                        </div>
+                    </article>
+
+                    <article class="animal-card">
+                        <img src="_images/Scout.png.png" alt="Scout the rescue dog">
+                        <div class="content">
+                            <div class="animal-meta">Dog • Male</div>
+                            <h3>Scout</h3>
+                            <p>Playful and energetic, with a loyal heart and a love for adventure.</p>
+                            <a href="enquiry.html" class="link-text">Enquire about Scout</a>
+                        </div>
+                    </article>
+
+                    <article class="animal-card">
+                        <img src="_images/Luna.png.png" alt="Luna the rescue cat">
+                        <div class="content">
+                            <div class="animal-meta">Cat • Female</div>
+                            <h3>Luna</h3>
+                            <p>Sweet, curious and gentle, with a soft nature and beautiful bright eyes.</p>
+                            <a href="enquiry.html" class="link-text">Enquire about Luna</a>
+                        </div>
+                    </article>
+
+                    <article class="animal-card">
+                        <img src="_images/Nala.png.png" alt="Nala the rescue cat">
+                        <div class="content">
+                            <div class="animal-meta">Cat • Female</div>
+                            <h3>Nala</h3>
+                            <p>Calm and loving, perfect for a home that values quiet comfort and affection.</p>
+                            <a href="enquiry.html" class="link-text">Enquire about Nala</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section process">
+            <div class="container">
+                <span class="section-label">How it works</span>
+                <h2 class="section-heading">A simple and caring adoption process</h2>
+
+                <div class="stats-grid">
+                    <article class="step">
+                        <div class="step-number">1</div>
+                        <h3>Browse</h3>
+                        <p>Explore the animals waiting for a home and choose the companion that matches your lifestyle.</p>
+                    </article>
+
+                    <article class="step">
+                        <div class="step-number">2</div>
+                        <h3>Enquire</h3>
+                        <p>Send us an adoption enquiry and tell us what kind of companion you are looking for.</p>
+                    </article>
+
+                    <article class="step">
+                        <div class="step-number">3</div>
+                        <h3>Meet &amp; Welcome</h3>
+                        <p>We guide you through the adoption process and help your new pet settle into their forever home.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="cta-banner">
+        <div class="container cta-banner-inner">
+            <h2>Ready to give a rescued pet a second chance?</h2>
+            <a href="contact.html" class="btn btn-secondary" style="border-color: white; color: white;">Contact us</a>
         </div>
-    </p>
-    <h2> What we do</h2>
-    <p>1. Rescue abandoned animals</p>
-    <p>2. Rehabilitate them</p>
-    <p>3. Rehome them</p>
+    </section>
 
-    <!--Navigation Menu-->
-    <nav>
-        <ul>
-            <table>
-                <tr>
-                    <td><a href="enquiry.html">Enquiry</a></td>
-                    <td><a href="Contact.html">Contact</a></td>
-                    <td><a href="Services.html">Our Work</a></td>
-                    <td><a href="about_us.html">Dogs</a></td>
-                    <td><a href="Cats.html">Cats</a></td>
-                </tr>
-            </table>
-        </ul> 
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>Paws &amp; Hearts</strong>
+                <p>Rescuing abandoned pets and rebuilding brighter futures.</p>
+            </div>
+            <div class="footer-links">
+                <a href="about_us.html">About</a>
+                <a href="services.html">Our Work</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
        

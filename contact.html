@@ -2,28 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Paws & Hearts</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<h1>Contact Us</h1>
-<p>Feel free to reach out to us with any questions or inquiries.</p>
-<p>Address: 123 Animal Street, Keurboom Park, Cape Town</p>
-<body> 
-    <iframe name="iLocation" src = "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38695.99679709046!2d18.492173507270248!3d-33.96293165839157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc432b201d7b9d%3A0xf93f694474be96ee!2sKeurboom%20Park!5e0!3m2!1sen!2sza!4v1788259065077!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
-</body>
-
-<h2>Contact Form</h2>
 <body>
-<form name ="contactForm" id="contactForm" method="post" action="/submit">
-    autocomplete="on"
-    <fieldset>
-        <legend>Contact Information</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" required maxlength="500"></textarea><br><br>
-    </fieldset>
-</form>
+    <header class="site-header">
+        <div class="container navbar">
+            <a href="index.html" class="brand" aria-label="Paws and Hearts home">
+                <span class="brand-mark">🐾</span>
+                <span>Paws &amp; Hearts</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul class="site-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="services.html">Our Work</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <div>
+                    <span class="section-label">Contact us</span>
+                    <h1 class="section-heading">We would love to hear from you.</h1>
+                    <p class="lead">Whether you're interested in adopting, volunteering or supporting our rescue work, we’re here to help.</p>
+                </div>
+                <div class="contact-card">
+                    <ul class="contact-list">
+                        <li>
+                            <div>
+                                <strong>Address</strong>
+                                123 Animal Street, Keurboom Park, Cape Town
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Email</strong>
+                                hello@pawsandhearts.org
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Phone</strong>
+                                +27 21 555 0198
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps?q=Keurboom%20Park%20Cape%20Town&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Keurboom Park Map"></iframe>
+                </div>
+
+                <div class="form-card">
+                    <span class="section-label">Send a message</span>
+                    <h2 class="section-heading" style="font-size:2rem;">Contact form</h2>
+                    <form method="post" action="#">
+                        <div class="form-grid">
+                            <div class="full">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
+                            </div>
+
+                            <div class="full">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required maxlength="500"></textarea>
+                            </div>
+
+                            <div class="full">
+                                <button type="submit" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>Paws &amp; Hearts</strong>
+                <p>Rescuing abandoned pets and creating homes full of love.</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about_us.html">About</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="services.html">Our Work</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
+
