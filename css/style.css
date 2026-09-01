@@ -1,0 +1,147 @@
+/* ===== Reset & Base Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #3e3a35;
+    background-color: #fdfbf7;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #6b8f71;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* ===== Navigation ===== */
+nav {
+    background-color: #4f6b52;
+    padding: 0.8rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e8c07d;
+    color: #3e3a35;
+}
+
+/* ===== Main Content ===== */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #4f6b52;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #e8c07d;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+    color: #514c46;
+}
+
+/* ===== Images ===== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Buttons / Links ===== */
+.btn, button {
+    display: inline-block;
+    background-color: #e8c07d;
+    color: #3e3a35;
+    padding: 0.7rem 1.6rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover, button:hover {
+    background-color: #d9a85a;
+    transform: translateY(-2px);
+}
+
+/* ===== Cards (e.g. for services/about sections) ===== */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1.5rem;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #4f6b52;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #e8c07d;
+    text-decoration: none;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
