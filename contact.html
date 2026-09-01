@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<h1>Contact Us</h1>
+<p>Feel free to reach out to us with any questions or inquiries.</p>
+<p>Address: 123 Animal Street, Keurboom Park, Cape Town</p>
+<body> 
+    <iframe name="iLocation" src = "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38695.99679709046!2d18.492173507270248!3d-33.96293165839157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc432b201d7b9d%3A0xf93f694474be96ee!2sKeurboom%20Park!5e0!3m2!1sen!2sza!4v1788259065077!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+</body>
+
+<h2>Contact Form</h2>
+<body>
+<form name ="contactForm" id="contactForm" method="post" action="/submit">
+    autocomplete="on"
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required maxlength="500"></textarea><br><br>
+    </fieldset>
+</form>
+</body>
+</html>
